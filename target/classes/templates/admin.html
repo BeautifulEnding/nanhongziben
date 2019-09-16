@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>南虹资本</title>
+    <meta name="keywords" content="南虹资本">
+    <meta name="description" content="南虹资本">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="shortcut icon" href="../static/images/logo.png"><!-- 替换成公司图标，显示在标题中-->
+
+    <!-- include main css -->
+    <link rel="stylesheet" type="text/css" href="../static/css/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="../static/css/bootstrap.css"/>
+    <link rel="stylesheet" type="text/css" href="../static/css/jquery.mmenu.all.css"/>
+    <link rel="stylesheet" type="text/css" href="../static/css/style.css"/>
+    <link href="../static/font-awesome-4.5.0/css/font-awesome.min.css" rel='stylesheet' type='text/css' media="all" />
+    <link rel="stylesheet" type="text/css" href="../static/css/animate.css"/>
+    <link rel="stylesheet" href="../static/css/swiper-3.3.1.min-1.css">
+    <!--[if lt IE 9]>
+    <script src="http://apps.bdimg.com/libs/html5shiv/r29/html5.min.js"></script>
+    <script src="http://apps.bdimg.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+<body>
+
+<div class="border">
+    <!--header-->
+    <div class="CN">
+        <a href="#">中</a>
+        <span class="verticalLine">|</span>
+        <a href="#">ENG</a>
+    </div>
+    <header class="header_zi">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html"><img src="../static/images/logo.jpg"></a>
+            </div>
+            <a href="#mmenu" class="phone-nav"><i class="fa fa-list"></i></a>
+            <div class="logo_right">
+                <nav class="nav">
+                    <ul>
+                        <li>Home</li>
+                        <li>About Us</li>
+                        <li>Team</li>
+                        <li>Fund</li>
+                        <li>News</li>
+                        <li>Contacts</li>
+                    </ul>
+                </nav>
+                <nav class="nav">
+
+                    <ul>
+                        <li><a href="index.html">首页</a></li>
+                        <li><a href="about.html">关于我们</a></li>
+                        <li><a href="admin.html"  class="active">管理团队</a></li>
+                        <li><a href="fund.html">基金管理</a></li>
+                        <li><a href="news.html">新闻中心</a></li>
+                        <li><a href="contact.html">联系我们</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!--中间部分-->
+    <div class="about" id="container">
+        <!--左边部分-->
+        <div class="l" id='btn'>
+            <ul class="clearfix">
+                <li><a href="javascript:void(0)" index="0" class="tab_btn active">管理团队</a></li>
+            </ul>
+        </div>
+        <!--右边部分-->
+        <div class="tab_div curr_div" id="tab">
+            <!--上方图片-->
+            <div>
+                <section class="banner_zi">
+                    <div style="position: relative" >
+                        <img src="../static/images/team.jpg" alt="">
+                        <h1 style="font-size:25px;color:white;position:absolute;bottom: 10px;margin-left: 20px">管理团队</h1>
+                    </div>
+                </section>
+            </div>
+            <!--下方图文-->
+            <div style="margin-top: 3%">
+                <div class="left">
+                    <section class="banner_zi">
+                        <div><img src="../static/images/flag.jpg" alt=""></div>
+                    </section>
+                </div>
+                <div style="margin-bottom: 20px"> &nbsp&nbsp&nbsp管理人团队深耕细分行业，积累多年的投资管理经验，具有深厚的专业能力，
+                    在金融领域、投资开发、实体产业、资产运营和行业研究等方面拥有广泛的资源。
+
+                </div>
+                <section class="banner_zi">
+                    <div><img src="../static/images/admin.jpg" alt=""></div>
+                </section>
+                <!--
+                <div class="team">
+                    <ul class="clearfix">
+                        <li class="wow bounceIn">
+                           判断ID，决定应该显示哪个图片，或者直接决定应该显示哪个容器
+                <a href="javascript:void(0)" onclick="toggleDialog(this,true)" id="liu"><img src="../static/images/team1.jpg" alt=""></a>
+                <span>刘晓娜</span><br>
+                <span>董事、总经理</span>
+                </li>
+                <li class="wow bounceIn">
+                    <a href="javascript:void(0)" onclick="toggleDialog(this,true)" id="li"><img src="../static/images/team2.jpg" alt=""></a>
+                    <span>李建伟</span><br>
+                    <span>地产投资部副总经理</span>
+                </li>
+                <li class="wow bounceIn">
+                    <a href="javascript:void(0)" onclick="toggleDialog(this,true)" id="xu"><img src="../static/images/team3.jpg" alt=""></a>
+                    <span>徐靖豪</span><br>
+                    <span>产业投资部副总经理</span>
+                </li>
+
+                </ul>
+                <ul class="clearfix">
+                    <li class="wow bounceIn">
+                        <a href="javascript:void(0)" onclick="toggleDialog(this,true)" id="wang"><img src="../static/images/team4.jpg" alt=""></a>
+                        <span>王晓</span><br>
+                        <span>风控总监</span>
+                    </li>
+                    <li class="wow bounceIn">
+                        <a href="javascript:void(0)" onclick="toggleDialog(this,true)" id="xiao"><img src="../static/images/team5.jpg" alt=""></a>
+                        <span>肖潇</span><br>
+                        <span>投资经理</span>
+                    </li>
+                    <li class="wow bounceIn">
+                        <a href="javascript:void(0)" onclick="toggleDialog(this,true)" id="jin"><img src="../static/images/team6.jpg" alt=""></a>
+                        <span>冀倩茹</span><br>
+                        <span>投资经理</span>
+                    </li>
+                </ul>
+            </div>
+                -->
+            </div>
+        </div>
+    </div>
+
+    <div style="margin-top: 1%">
+
+    </div>
+
+    <!--footer  start-->
+    <footer class="footer">
+        <div class="Mytable">
+            <table class="footerTable">
+                <thead>
+                <tr>
+                    <th class="headSize">关于我们</th>
+                    <th class="headSize">管理团队</th>
+                    <th class="headSize">基金管理</th>
+                    <th class="headSize">新闻中心</th>
+                    <th class="headSize">联系我们</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <th class="trSize">概况</th>
+                    <th></th>
+                    <th class="trSize">南虹基金</th>
+                    <th></th>
+                    <th class="trSize">联系我们</th>
+                </tr>
+                <tr>
+                    <th class="trSize">我们的投资</th>
+                    <th></th>
+                    <th class="trSize">投资策略</th>
+                    <th></th>
+                    <th class="trSize">加入我们</th>
+                </tr>
+                <tr>
+                    <th class="trSize" >公司历史</th>
+                    <th></th>
+                    <th class="trSize">投资案例</th>
+                    <th></th>
+                    <th></th>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="line">
+        </div>
+        <div class="copy">Copyright© 2018 上海南虹桥投资管理有限公司</div>
+    </footer>
+    <!--footer  end-->
+
+    <!--移动端  Mmenu-->
+    <nav id="mmenu">
+
+        <ul>
+
+            <li><a href="index.html" class="active">首页</a></li>
+            <li><a href="about.html">关于我们</a></li>
+            <li><a href="admin.html">管理团队</a>
+            </li>
+            <li><a href="fund.html">基金管理</a></li>
+            <li><a href="news.html">新闻中心</a></li>
+            <li><a href="contact.html">联系我们</a></li>
+
+        </ul>
+    </nav>
+</div>
+<div id="dialog-face" class="none"></div>
+<div id="dialog1" class="none" onclick="toggleDialog(this,false)">
+    <div id="dialog-wrapper1">
+        <div class="shuiping">
+            <img src="../static/images/team1.jpg">
+        </div>
+        <div class="paibanwenzi">
+            <p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp刘晓娜</p>
+            <p></p>
+            <p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp曾任熙金资本合伙人。毕业于上海交通大学、复旦大学，获得工学学士、工商硕士、企管博士。
+                曾在金融科技类公司（600人）任副总经理，在教育科技类公司（1000人）任总裁并组建数据科技公司。
+                上海大学MBA企业导师、上海市青年企业家协会会员；上海青年五四奖章。
+            </p>
+            <p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp熟悉宏观规划、土地、房地产、产业发展、园区建设等经济政策与金融投资行业，具有行业研判和企业
+                咨询能力。参与的基金由中科丝路基金、西部生命科学基金、云雀咖啡产业基金。熟悉园区开发建设、
+                数据产业、金融科技、智能制造行业。
+            </p>
+        </div>
+
+</div>
+</div>
+<div id="dialog2" class="none" onclick="toggleDialog(this,false)">
+    <div id="dialog-wrapper2">
+        <div class="shuiping">
+            <img src="../static/images/team2.jpg">
+        </div>
+        <div class="paibanwenzi">
+            <p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp李建伟</p>
+            <p></p>
+            <p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp同济大学毕业。曾任歌斐资产房地产基金董事总经理，历任上海市住宅局、保利地产、
+                香港建设部门负责人、高管。擅长基金运作，对夹层基金、项目股权投资、地产PE投资、大宗资产收购以及ABS等有运作经验，
+                完成项目投资60多个、投资金额400多亿元。对房地产行业金融的运作有全景实践，熟悉国内一线房地产公司及上下游产业链。
+
+            </p>
+            <p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp主导完成了阳光城一期和二期、蓝光成都、证大廊坊、隆鑫、卧龙、万科等近十
+                个地产项目股权投资的基金运作退出；作为风控委，参与了房多多、优客工场、优家公寓等PE投资项目以及上海黄浦江边超甲级
+                写字楼（超30亿元）收购的决策全过程。
+
+            </p>
+        </div>
+
+    </div>
+</div>
+<div id="dialog3" class="none" onclick="toggleDialog(this,false)">
+    <div id="dialog-wrapper3">
+        <div class="shuiping">
+            <img src="../static/images/team3.jpg">
+        </div>
+        <div class="paibanwenzi">
+            <p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp徐靖豪</p>
+            <p></p>
+            <p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp纽约大学数学金融硕士，先后供职于磐石资本、涌铧投资、预鉴资本。累计投资金额超10亿元，
+                主要涵盖金融科技、教育及大数据行业。投资案例包括：吉祥航空（603885）、润欣科技（300493）、51信用卡（2051.HK）、
+                360金融、映客（03700）、哒哒英语、番茄天艺术等。
+
+            </p>
+        </div>
+
+    </div>
+</div>
+<div id="dialog4" class="none" onclick="toggleDialog(this,false)">
+    <div id="dialog-wrapper4">
+        <div class="shuiping">
+            <img src="../static/images/team4.jpg">
+        </div>
+        <div class="paibanwenzi">
+            <p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp王晓</p>
+            <p></p>
+            <p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp曾任熙金资本合伙人。毕业于上海交通大学、复旦大学，获得工学学士、工商硕士、企管博士。
+                曾在金融科技类公司（600人）任副总经理，在教育科技类公司（1000人）任总裁并组建数据科技公司。
+                上海大学MBA企业导师、上海市青年企业家协会会员；上海青年五四奖章。
+            </p>
+            <p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp熟悉宏观规划、土地、房地产、产业发展、园区建设等经济政策与金融投资行业，具有行业研判和企业
+                咨询能力。参与的基金由中科丝路基金、西部生命科学基金、云雀咖啡产业基金。熟悉园区开发建设、
+                数据产业、金融科技、智能制造行业。
+            </p>
+        </div>
+
+    </div>
+</div>
+<div id="dialog5" class="none" onclick="toggleDialog(this,false)">
+    <div id="dialog-wrapper5">
+        <div class="shuiping">
+            <img src="../static/images/team5.jpg">
+        </div>
+        <div class="paibanwenzi">
+            <p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp肖潇</p>
+            <p></p>
+            <p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp曾任熙金资本合伙人。毕业于上海交通大学、复旦大学，获得工学学士、工商硕士、企管博士。
+                曾在金融科技类公司（600人）任副总经理，在教育科技类公司（1000人）任总裁并组建数据科技公司。
+                上海大学MBA企业导师、上海市青年企业家协会会员；上海青年五四奖章。
+            </p>
+            <p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp熟悉宏观规划、土地、房地产、产业发展、园区建设等经济政策与金融投资行业，具有行业研判和企业
+                咨询能力。参与的基金由中科丝路基金、西部生命科学基金、云雀咖啡产业基金。熟悉园区开发建设、
+                数据产业、金融科技、智能制造行业。
+            </p>
+        </div>
+
+    </div>
+</div>
+<div id="dialog6" class="none" onclick="toggleDialog(this,false)">
+    <div id="dialog-wrapper6">
+        <div class="shuiping">
+            <img src="../static/images/team6.jpg">
+        </div>
+        <div class="paibanwenzi">
+            <p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp冀倩茹</p>
+            <p></p>
+            <p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp曾任熙金资本合伙人。毕业于上海交通大学、复旦大学，获得工学学士、工商硕士、企管博士。
+                曾在金融科技类公司（600人）任副总经理，在教育科技类公司（1000人）任总裁并组建数据科技公司。
+                上海大学MBA企业导师、上海市青年企业家协会会员；上海青年五四奖章。
+            </p>
+            <p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp熟悉宏观规划、土地、房地产、产业发展、园区建设等经济政策与金融投资行业，具有行业研判和企业
+                咨询能力。参与的基金由中科丝路基金、西部生命科学基金、云雀咖啡产业基金。熟悉园区开发建设、
+                数据产业、金融科技、智能制造行业。
+            </p>
+        </div>
+
+    </div>
+</div>
+
+
+<!--Include Js-->
+<script src="../static/js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+
+<!--移动端导航-->
+<script src="../static/js/jquery.mmenu.all.min.js" type="text/javascript" charset="utf-8"></script>
+
+<!--slick-->
+<script src="../static/js/slick.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="../static/js/wow.js" type="text/javascript" charset="utf-8"></script>
+
+<!--placeholder-->
+<script src="../static/js/jquery.placeholder.min.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript">
+    $(function(){ $('input, textarea').placeholder(); });
+</script>
+<script src="../static/js/public.js" type="text/javascript" charset="utf-8"></script>
+<script>
+    function getClass(className) { //className指class的值
+
+        var tagname = document.getElementsByTagName('*');  //获取指定元素
+        var tagnameAll = [];     //这个数组用于存储所有符合条件的元素
+        for (var i = 0; i < tagname.length; i++) {     //遍历获得的元素
+            if (tagname[i].className.indexOf(className)>=0){     //如果获得的元素中的class的值等于指定的类名，就赋值给tagnameAll
+                tagnameAll[tagnameAll.length] = tagname[i];
+            }
+        }
+        return tagnameAll;
+
+    }
+    window.onload=function(){//载入事件
+        var btn=getClass('tab_btn');//获取按钮数组
+        var div=getClass('tab_div');//获取div数组
+        for(i=0;i<btn.length;i++){
+            btn[i].onclick=function(){//按钮点击事件
+                var index=(this.getAttribute('index')-0);//获取是第几个按钮按下
+                if(btn[index].className.indexOf('curr_btn')>=0) return;//如果按下的按钮为当前选中的按钮则无反应
+                for(i=0;i<btn.length;i++){
+                    if(index==i){
+                        btn[i].className='active';
+                        div[i].className='tab_div curr_div';
+                    }else{
+                        btn[i].className='';
+                        div[i].className='tab_div';
+                    }
+                }
+            }
+        }
+    };
+
+    function toggleDialog(element,show){
+        var animationClass = show ? "slipUp" : "slipBottom";
+        var id=element.id;
+        switch (id) {
+            //如果是刘的头像被点击
+            case 'liu':
+                //alert(id+show);
+                var animation = function(){
+                    var ele = document.getElementById("dialog-face");
+                    ele.className = "dialog-face " + animationClass;
+                    ele = document.getElementById("dialog1");
+                    ele.className = "dialog-root " + animationClass;
+                    ele = document.getElementById("dialog-wrapper1");
+                    ele.className = "dialog-wrapper " + animationClass;
+                };
+                //alert("finish");
+                setTimeout(animation, 100);
+                break;
+            case 'li':
+                //alert(id+show);
+                var animation = function(){
+                    var ele = document.getElementById("dialog-face");
+                    ele.className = "dialog-face " + animationClass;
+                    ele = document.getElementById("dialog2");
+                    ele.className = "dialog-root " + animationClass;
+                    ele = document.getElementById("dialog-wrapper2");
+                    ele.className = "dialog-wrapper " + animationClass;
+                };
+                //alert("finish");
+                setTimeout(animation, 100);
+                break;
+            case 'xu':
+                //alert(id+show);
+                var animation = function(){
+                    var ele = document.getElementById("dialog-face");
+                    ele.className = "dialog-face " + animationClass;
+                    ele = document.getElementById("dialog3");
+                    ele.className = "dialog-root " + animationClass;
+                    ele = document.getElementById("dialog-wrapper3");
+                    ele.className = "dialog-wrapper " + animationClass;
+                };
+                //alert("finish");
+                setTimeout(animation, 100);
+                break;
+            case 'wang':
+                //alert(id+show);
+                var animation = function(){
+                    var ele = document.getElementById("dialog-face");
+                    ele.className = "dialog-face " + animationClass;
+                    ele = document.getElementById("dialog4");
+                    ele.className = "dialog-root " + animationClass;
+                    ele = document.getElementById("dialog-wrapper4");
+                    ele.className = "dialog-wrapper " + animationClass;
+                };
+                //alert("finish");
+                setTimeout(animation, 100);
+                break;
+            case 'xiao':
+                //alert(id+show);
+                var animation = function(){
+                    var ele = document.getElementById("dialog-face");
+                    ele.className = "dialog-face " + animationClass;
+                    ele = document.getElementById("dialog5");
+                    ele.className = "dialog-root " + animationClass;
+                    ele = document.getElementById("dialog-wrapper5");
+                    ele.className = "dialog-wrapper " + animationClass;
+                };
+                //alert("finish");
+                setTimeout(animation, 100);
+                break;
+            case 'jin':
+                //alert(id+show);
+                var animation = function(){
+                    var ele = document.getElementById("dialog-face");
+                    ele.className = "dialog-face " + animationClass;
+                    ele = document.getElementById("dialog6");
+                    ele.className = "dialog-root " + animationClass;
+                    ele = document.getElementById("dialog-wrapper6");
+                    ele.className = "dialog-wrapper " + animationClass;
+                };
+                //alert("finish");
+                setTimeout(animation, 100);
+                break;
+            case 'dialog1':
+                //alert(id+show);
+                //alert(id+show);
+                var animation = function(){
+                    var ele = document.getElementById("dialog-face");
+                    ele.className = "dialog-face " + animationClass;
+                    ele = document.getElementById("dialog1");
+                    ele.className = "dialog-root " + animationClass;
+                    ele = document.getElementById("dialog-wrapper1");
+                    ele.className = "dialog-wrapper " + animationClass;
+                };
+                //alert("finish");
+                setTimeout(animation, 100);
+                break;
+            case 'dialog2':
+                //alert(id+show);
+                var animation = function(){
+                    var ele = document.getElementById("dialog-face");
+                    ele.className = "dialog-face " + animationClass;
+                    ele = document.getElementById("dialog2");
+                    ele.className = "dialog-root " + animationClass;
+                    ele = document.getElementById("dialog-wrapper2");
+                    ele.className = "dialog-wrapper " + animationClass;
+                };
+                //alert("finish");
+                setTimeout(animation, 100);
+                break;
+            case 'dialog3':
+                //alert(id+show);
+                var animation = function(){
+                    var ele = document.getElementById("dialog-face");
+                    ele.className = "dialog-face " + animationClass;
+                    ele = document.getElementById("dialog3");
+                    ele.className = "dialog-root " + animationClass;
+                    ele = document.getElementById("dialog-wrapper3");
+                    ele.className = "dialog-wrapper " + animationClass;
+                };
+                //alert("finish");
+                setTimeout(animation, 100);
+                break;
+            case 'dialog4':
+                //alert(id+show);
+                var animation = function(){
+                    var ele = document.getElementById("dialog-face");
+                    ele.className = "dialog-face " + animationClass;
+                    ele = document.getElementById("dialog4");
+                    ele.className = "dialog-root " + animationClass;
+                    ele = document.getElementById("dialog-wrapper4");
+                    ele.className = "dialog-wrapper " + animationClass;
+                };
+                //alert("finish");
+                setTimeout(animation, 100);
+                break;
+            case 'dialog5':
+                //alert(id+show);
+                var animation = function(){
+                    var ele = document.getElementById("dialog-face");
+                    ele.className = "dialog-face " + animationClass;
+                    ele = document.getElementById("dialog5");
+                    ele.className = "dialog-root " + animationClass;
+                    ele = document.getElementById("dialog-wrapper5");
+                    ele.className = "dialog-wrapper " + animationClass;
+                };
+                //alert("finish");
+                setTimeout(animation, 100);
+                break;
+            case 'dialog6':
+                //alert(id+show);
+                var animation = function(){
+                    var ele = document.getElementById("dialog-face");
+                    ele.className = "dialog-face " + animationClass;
+                    ele = document.getElementById("dialog6");
+                    ele.className = "dialog-root " + animationClass;
+                    ele = document.getElementById("dialog-wrapper6");
+                    ele.className = "dialog-wrapper " + animationClass;
+                };
+                //alert("finish");
+                setTimeout(animation, 100);
+                break;
+            default:
+                break;
+        }
+
+    }
+</script>
+
+</body>
+</html>

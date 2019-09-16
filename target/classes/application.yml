@@ -1,0 +1,14 @@
+spring:
+  resources:
+    static-locations: classpath:/
+  freemarker:
+    template-loader-path: classpath:/templates/
+    suffix: .html
+    content-type: text/html
+    charset: UTF-8
+server:
+  port: 8080
+  error:
+    whitelabel:
+      enabled: true
+
